@@ -1,0 +1,24 @@
+{
+    "name": "danie/app-salon",
+    "description": "Proyecto php 8 mvc sql sas gulp",
+    "type": "proyect",
+    "autoload": {
+        "psr-4": {
+            "Danie\\AppSalon\\": "src/",
+            "MVC\\": "./",
+            "Controllers\\": "./controllers", 
+            "Model\\": "./models", 
+            "Classes\\": "./classes"
+        }
+    },
+    "authors": [
+        {
+            "name": "danielariasmar",
+            "email": "danielariasmar1@gmail.com"
+        }
+    ],
+    "require": {
+        "phpmailer/phpmailer": "^6.8",
+        "vlucas/phpdotenv": "^5.5"
+    }
+}
